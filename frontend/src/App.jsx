@@ -4,7 +4,7 @@ import {
   TrendingUp, ChevronRight, Save, Edit3, X, User, ArrowLeft, Filter, FileText
 } from 'lucide-react';
 
-const API_BASE = 'http://localhost:4500/api';
+const API_BASE = 'https://student-management-system-rci9.onrender.com';
 
 const api = {
   getHeaders: () => ({
