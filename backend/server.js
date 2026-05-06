@@ -152,4 +152,4 @@ app.get('/api/reports/student/:id', auth, async (req, res) => {
     res.send(marks);
 });
 
-app.listen(port, () => console.log(`Server running on http://localhost:${port}`));
+app.listen(port, () => console.log(`Server started on http://localhost:${port}\nAt ${new Date()}`));
